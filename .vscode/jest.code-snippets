@@ -1,0 +1,8 @@
+{
+  "Test": {
+    "scope": "javascript,typescript",
+    "prefix": "test",
+    "body": ["test('$1', () => {", "  expect($2)$3;", "});"],
+    "description": "Jest Test"
+  }
+}
